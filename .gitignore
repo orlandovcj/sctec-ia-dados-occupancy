@@ -1,0 +1,17 @@
+# Ambiente Virtual
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Arquivos temporários do SO
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+
+# Opcional: manter data/occupancy.csv versionado e ignorar apenas o zip bruto
+data/*.zip
+data/raw/
